@@ -1,0 +1,38 @@
+body {
+	background: #000000;
+	color: #00ff00;
+}
+
+#container {
+	width: auto;
+	height: auto;
+	float: left;
+	border: 1px dotted red;
+}
+
+#editor {
+	width: 1000px;
+	height: 500px;
+	background: #111111;
+	padding: 15px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 15px;
+	color: #00ff00;
+}
+
+.btn {
+	width: 80px;
+	height: 30px;
+	background: #ff0000;
+	border: 1px dashed #00ff00;
+	color: #ffffff;
+}
+.btn:hover {
+	background: #00ff00;
+	color: #000000;
+}
+
+#cursor {
+	font-size: 25px;
+	color: #00ff00;
+}

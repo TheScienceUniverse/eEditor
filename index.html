@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Text Editor</title>
+	<link rel="shortcut icon" type="image/png" href="./img/code_rgb.png">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script type="text/javascript" src="./script.js"></script>
+</head>
+<body onload="init()">
+	<center>
+		<img src="./img/code_rgb.png" width="80px"><br>
+		<h1>Hello, World!</h1>
+		<h2>Welcome to online Editor!</h2>
+		<button id="reset" class="btn" onclick="reset()">Reset</button>
+		<button id="submit" class="btn" onclick="submit()">Submit</button>
+	</center>
+	<div id="container">
+		<select>
+			<option value="l_eng" title="English Plain-Text">Plain Text</option>
+			<option value="l_rtf" title="English Rich-Text">Rich-Text</option>
+			<option value="pl_c" title="C Programming Language">C</option>
+			<option value="pl_java" title="Java Programming Language">Java</option>
+			<option value="pl_php" title="PHP Hypertext Preprocessor">PHP</option>
+			<option value="sl_html" title="HyperText Martkup Language">HTML</option>
+			<option value="sl_css" title="Cascading Style Sheets">CSS</option>
+			<option value="sl_js" title="JavaScript">JS</option>
+			<option value="" title="">X</option>
+			<option value="" title="">X</option>
+			<option value="" title="">X</option>
+			<option value="" title="">X</option>
+		</select>
+		<div id="editor"></div>
+	</div>
+</body>
+</html>
